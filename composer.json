@@ -1,0 +1,15 @@
+{
+    "name" : "starcruizah/HTTP_Request",
+    "description": "",
+    "version": "0.0.1",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/starcruizah/HTTP_Request"
+        }
+    ],
+    "require": {
+        "starcruizah/HTTP_Request": "master",
+        "monolog/monolog": "1.*"
+    }
+}
