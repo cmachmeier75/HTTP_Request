@@ -1,5 +1,5 @@
 {
-    "name" : "starcruizah/http_request",
+    "name" : "cmachmeier75/http_request",
     "description": "",
     "license": "GPL",
     "authors": [{
@@ -10,10 +10,10 @@
     "version": "0.0.1",
     "repositories": [{
         "type": "vcs",
-        "url": "https://github.com/starcruizah/HTTP_Request"
+        "url": "https://github.com/cmachmeier75/HTTP_Request"
     }],
     "autoload": {
-        "psr-4": {"starcruizah\\HTTP_Request\\": "src/"}
+        "psr-4": {"cmachmeier75\\HTTP_Request\\": "src/"}
     },
     "require": {
         "monolog/monolog": "1.*"

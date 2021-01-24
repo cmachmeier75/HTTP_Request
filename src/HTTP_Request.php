@@ -2,7 +2,7 @@
 
 namespace HTTP_Request;
 
-class Request
+class HTTP_Request
 {
     private static $contentTypes = [
         'json' => 'Content-Type: application/json',
