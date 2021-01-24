@@ -1,15 +1,21 @@
 {
-    "name" : "starcruizah/HTTP_Request",
+    "name" : "starcruizah/http_request",
     "description": "",
+    "license": "GPL",
+    "authors": [{
+      "name": "Christian Machmeier",
+      "email": "dev@ccnet.me"
+    }],
+    "type": "library",
     "version": "0.0.1",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/starcruizah/HTTP_Request"
-        }
-    ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/starcruizah/HTTP_Request"
+    }],
+    "autoload": {
+        "psr-4": {"starcruizah\\HTTP_Request\\": "src/"}
+    },
     "require": {
-        "starcruizah/HTTP_Request": "master",
         "monolog/monolog": "1.*"
     }
 }
